@@ -18,7 +18,8 @@ pip install PIL
 pip install abc
 
 # Code clone
-git clone 
+git clone https://github.com/xuhuali-mxj/IM-DCL.git
+cd IM-DCL
 
-## Dataset
-The 4 datasets are from BS-CDFSL. You can find the datasets from 
+# Dataset
+For the 4 datasets CropDiseases, EuroSAT, ISIC, and ChestX, we refer to the [BS-CDFSL](https://github.com/IBM/cdfsl-benchmark) repo.
