@@ -45,7 +45,7 @@ Please set your data address in [configs.py](configs.py).
 
 We also provide the pretrained source model in mini_models/checkpoints/ResNet10_ce_aug/, We use ResNet10_ce_1200.tar to evaluate our IM-DCL.
 
-Taking 5-way 1-shot as an example, the code runing process can be done as,
+We start from run.sh. Taking 5-way 1-shot as an example, the code runing process can be done as,
 
 ```
 python ./adapt_da.py --model ResNet10 --train_aug --use_saved --dtarget CropDisease --n_shot 1
