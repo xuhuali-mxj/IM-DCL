@@ -388,7 +388,7 @@ if __name__=='__main__':
     print(params.n_shot)
 
     image_size = 224
-    iter_num = 30
+    iter_num = 600
     params.method = 'ce'
 
     few_shot_params = dict(n_way=params.test_n_way, n_support=params.n_shot, n_query=15)
