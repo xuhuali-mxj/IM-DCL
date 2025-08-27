@@ -53,7 +53,9 @@ python ./adapt_da.py --model ResNet10 --train_aug --use_saved --dtarget CropDise
 
 ## Based on ViT
 
-Coming soon.
+```
+python ./adapt_da_vit.py --model vit --train_aug --use_saved --dtarget CropDisease --n_shot 1
+```
 
 # 5. Acknowledge
 Our code is built upon the implementation of [FTEM_BSR_CDFSL](https://github.com/liubingyuu/FTEM_BSR_CDFSL) and [SHOT](https://github.com/tim-learn/SHOT). Thanks for their work.
