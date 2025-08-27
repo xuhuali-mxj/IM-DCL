@@ -52,6 +52,11 @@ python ./adapt_da.py --model ResNet10 --train_aug --use_saved --dtarget CropDise
 ```
 
 ## Based on ViT
+Down load the pretrained ViT from [here](https://github.com/google-research/vision_transformer). The models can be downloaded with e.g.:
+```
+wget https://storage.googleapis.com/vit_models/imagenet21k/ViT-B_16.npz
+```
+Run the following code:
 
 ```
 python ./adapt_da_vit.py --model vit --train_aug --use_saved --dtarget CropDisease --n_shot 1
